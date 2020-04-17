@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .thumbnail {
+                margin: 10px;
+                width:200px;
+                height:200px;
+                background-size: cover;
+                background-position: center;
+                border:5px solid gray;
+            }
+            .thumbnail.round{
+                border-radius:10%;
+            }
+            .thumbnail.circle {
+                border-radius: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class ="thumbnail" 
+        style="background-image:url('norway.jpg')"></div>
+        <div class ="thumbnail round" 
+        style="background-image:url('norway.jpg')">
+        </div>
+        <div class ="thumbnail circle" 
+        style="background-image:url('norway.jpg')">
+        </div>
+    </body>
+</html>
